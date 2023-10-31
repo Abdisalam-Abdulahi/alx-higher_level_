@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 
 """
-
 function that divides all elements of a matrix.
-
+div can’t be equal to 0, otherwise raise a ZeroDivisionError exception with the
+message division by zero
+All elements of the matrix should be divided by div, rounded
+to 2 decimal places
 """
 
 
