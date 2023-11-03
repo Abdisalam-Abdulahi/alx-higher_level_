@@ -75,6 +75,7 @@ class Rectangle:
         """
         return str(((lambda x: x * self.width + '\n')("#")
                     * self.height).strip("\n"))
+
     def __repr__(self):
         """
         returns string implementation of a class
