@@ -10,7 +10,6 @@ class Rectangle:
     Reactange class with width and height
     """
 
-
     def __init__(self, width=0, height=0):
         """
         initialize
@@ -55,8 +54,3 @@ class Rectangle:
             raise ValueError("height must be >= 0")
         else:
             self.__height = value
-
-
-
-
-
